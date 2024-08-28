@@ -1,2 +1,36 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-tle: #2a68cb;
+	--ion-color-tle-rgb: 42,104,203;
+	--ion-color-tle-contrast: #ffffff;
+	--ion-color-tle-contrast-rgb: 255,255,255;
+	--ion-color-tle-shade: #255cb3;
+	--ion-color-tle-tint: #3f77d0;
+}
+
+.ion-color-tle {
+	--ion-color-base: var(--ion-color-tle);
+	--ion-color-base-rgb: var(--ion-color-tle-rgb);
+	--ion-color-contrast: var(--ion-color-tle-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-tle-contrast-rgb);
+	--ion-color-shade: var(--ion-color-tle-shade);
+	--ion-color-tint: var(--ion-color-tle-tint);
+}
+:root {
+	--ion-color-title: #22ce36;
+	--ion-color-title-rgb: 34,206,54;
+	--ion-color-title-contrast: #000000;
+	--ion-color-title-contrast-rgb: 0,0,0;
+	--ion-color-title-shade: #1eb530;
+	--ion-color-title-tint: #38d34a;
+}
+
+.ion-color-title {
+	--ion-color-base: var(--ion-color-title);
+	--ion-color-base-rgb: var(--ion-color-title-rgb);
+	--ion-color-contrast: var(--ion-color-title-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-title-contrast-rgb);
+	--ion-color-shade: var(--ion-color-title-shade);
+	--ion-color-tint: var(--ion-color-title-tint);
+}
